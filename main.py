@@ -8,7 +8,7 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-from database.db import init_db, add_sample_events
+from fishing_bot.database.db import init_db, add_sample_events
 from handlers.commands import (
     cmd_start, cmd_profile, cmd_fishing, cmd_map, cmd_boost,
     cmd_bag, cmd_equipment, cmd_upgrade, cmd_daily, cmd_history,
