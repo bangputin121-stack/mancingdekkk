@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python fishing-bot/main.py
